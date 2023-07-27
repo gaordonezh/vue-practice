@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #333;
+  color: snow;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin: 30px;
+  border: 1px solid snow;
+  border-radius: 5px;
+  background-color: #262626;
+  box-shadow: 0 0 20px -10px snow;
+  padding: 15px;
+}/*# sourceMappingURL=base.css.map */
