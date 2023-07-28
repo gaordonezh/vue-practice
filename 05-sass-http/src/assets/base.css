@@ -22,4 +22,69 @@ h1 {
   background-color: #262626;
   box-shadow: 0 0 20px -10px snow;
   padding: 15px;
+}
+
+.grid {
+  display: flex;
+}
+
+form {
+  margin: 0 50px 0 0;
+}
+
+select {
+  display: block;
+  width: 300px;
+  height: 35px;
+  font-size: 15px;
+  border: none;
+  margin: 10px 0px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+button {
+  width: 300px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 20px;
+  color: snow;
+  font-weight: bold;
+  background-color: #641212;
+  border: none;
+  transition: background 0.3s;
+}
+button:hover {
+  background-color: #8f1a1a;
+}
+
+.data {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 5px;
+  color: gold;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+h3 .cripto {
+  color: tomato;
+}
+h3 .moneda {
+  color: lime;
+}
+
+img {
+  width: 175px;
+}
+
+p {
+  font-size: 50px;
+}
+p strong {
+  color: orange;
 }/*# sourceMappingURL=base.css.map */
