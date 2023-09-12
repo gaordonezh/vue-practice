@@ -1,20 +1,21 @@
 <script>
-import { mapState, mapActions } from "vuex";
-
+import { mapState, mapActions } from 'vuex'
 export default {
   computed: {
-    ...mapState(["username"]),
+    ...mapState({
+      username: (state) => state.profile.username
+    })
   },
   methods: {
-    ...mapActions(["updateUsername"]),
-  },
-};
+    ...mapActions('profile', ['updateUsername'])
+  }
+}
 </script>
 
 <template>
   <div class="profile">
     <div class="box">
-      <img src="/avatars/avatar.jpg" alt="avatar" />
+      <img src="/avatars/avatar-02.jpg" alt="avatar" />
       <label for="username">Nombre de usuario</label>
       <input
         type="text"
